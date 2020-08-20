@@ -1,0 +1,6 @@
+.bk{
+        background: -webkit-linear-gradient(left top, #2dc0e4, #eaecc6); 
+        background: -o-linear-gradient(bottom right, #2dc0e4, #eaecc6); 
+        background: -moz-linear-gradient(bottom right, #2dc0e4, #eaecc6);
+        background: linear-gradient(to bottom right, #2dc0e4, #eaecc6);      
+}
