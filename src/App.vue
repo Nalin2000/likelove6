@@ -169,6 +169,7 @@ p {
 .tot {
   background-color: rgba(238, 238, 238, 0.6);
   padding: 20px;
+  margin-right: 50px;
   border-radius: 20px;
 }
 </style>

@@ -77,9 +77,6 @@ export default {
 </script> 
 
 <style scoped>
-.b {
-  
-}
 
 .button-a {
   background-color: white;
