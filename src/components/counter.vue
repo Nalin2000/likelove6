@@ -15,7 +15,7 @@
     <button v-on:click="$sad" class="button-a" id="purple">
       <i class="fas fa-sad-tear fa-2x"></i>
     </button>
-    <button v-on:click="$angry" class="button-a " id="red">
+    <button v-on:click="$angry" class="button-a" id="red">
       <i class="fas fa-angry fa-2x"></i>
     </button>
   </div>
@@ -77,7 +77,6 @@ export default {
 </script> 
 
 <style scoped>
-
 .button-a {
   background-color: white;
   border: none;

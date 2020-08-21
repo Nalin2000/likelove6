@@ -20,7 +20,6 @@
       </div>
       <!--/col-md-6 total-->
     </div>
-
     <div class="row mb-3 ml-auto mr-auto">
       <div class="col-xs-6 col-sm-10 col-md-8 col-lg-7 mg">
         <div class="card">
