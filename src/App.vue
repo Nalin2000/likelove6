@@ -2,8 +2,7 @@
   <div id="app">
     <carousel-section></carousel-section>
     <div class="row mb-3 ml-auto mr-auto">
-      <div class="col-md-3"></div>
-      <div class="col-md-3">
+      <div class="col-xs-6 col-sm-10 col-md-8 col-lg-7 mg">
         <div class="card">
           <div class="mr-1 mt-1 ml-1 mb-2">
             <img class="card-img-top" src="./assets/img/Sea.jpg" alt />
@@ -13,13 +12,16 @@
           </div>
         </div>
       </div>
-      <div class="col-md-6 bg">Total {{total}} point.</div>
+      <div class="col-xs-6 col-sm-2 col-md-4 col-lg-5 bg">
+        
+        <div class="tot"><i class="fas fa-angle-double-right"></i>
+        Total {{total}} point.</div>
+      </div>
       <!--/col-md-6 total-->
     </div>
 
     <div class="row mb-3 ml-auto mr-auto">
-      <div class="col-md-3"></div>
-      <div class="col-md-3">
+      <div class="col-xs-6 col-sm-10 col-md-8 col-lg-7 mg">
         <div class="card">
           <div class="mr-1 mt-1 ml-1 mb-2">
             <img class="card-img-top" src="./assets/img/mountain.jpg" alt />
@@ -29,13 +31,15 @@
           </div>
         </div>
       </div>
-      <div class="col-md-6 bg">Total {{tl}} point.</div>
+      <div class="col-xs-6 col-sm-2 col-md-4 col-lg-5 bg">
+        <div class="tot"><i class="fas fa-angle-double-right"></i>
+        Total {{tl}} point.</div>
+      </div>
       <!--/col-md-6 total-->
     </div>
 
     <div class="row mb-3 ml-auto">
-      <div class="col-md-3"></div>
-      <div class="col-md-3">
+      <div class="col-xs-6 col-sm-10 col-md-8 col-lg-7 mg">
         <div class="card">
           <div class="mr-1 mt-1 ml-1 mb-2">
             <img class="card-img-top" src="./assets/img/Island.jpg" />
@@ -45,7 +49,10 @@
           </div>
         </div>
       </div>
-      <div class="col-md-6 bg">Total {{t}} point.</div>
+      <div class="col-xs-6 col-sm-2 col-md-4 col-lg-5 bg">
+        <div class="tot"><i class="fas fa-angle-double-right"></i>
+        Total {{t}} point. </div>
+      </div>
       <!--/col-md-6 total-->
     </div>
 
@@ -75,7 +82,7 @@
           <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox" target="blank">
             <i class="far fa-envelope text-dark fa-2x mr-2"></i>
           </a>
-          <a href="https://github.com/Nalin2000/Portfolio" target="blank">
+          <a href="https://github.com/Nalin2000/likelove6.git" target="blank">
             <i class="fab fa-github text-dark fa-2x mr-2"></i>
           </a>
         </div>
@@ -96,12 +103,7 @@ export default {
     counter,
     carouselSection,
   },
-  props: {
-    title: {
-      type: String,
-      required: true,
-    },
-  },
+
   data: function () {
     return {
       total: 0, //ผลรวมทั้งหมด
@@ -130,10 +132,15 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #000000;
-  margin-top: 0px;
 }
 .bg {
   font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.mg {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -154,5 +161,10 @@ p {
 .te {
   text-align: left;
   margin-top: 20px;
+}
+.tot {
+  background-color: rgba(238,238,238,0.6);
+  padding: 20px;
+  border-radius: 20px;
 }
 </style>
