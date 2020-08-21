@@ -13,9 +13,10 @@
         </div>
       </div>
       <div class="col-xs-6 col-sm-2 col-md-4 col-lg-5 bg">
-        
-        <div class="tot"><i class="fas fa-angle-double-right"></i>
-        Total {{total}} point.</div>
+        <div class="tot">
+          <i class="fas fa-angle-double-right"></i>
+          Total {{total}} point.
+        </div>
       </div>
       <!--/col-md-6 total-->
     </div>
@@ -32,8 +33,10 @@
         </div>
       </div>
       <div class="col-xs-6 col-sm-2 col-md-4 col-lg-5 bg">
-        <div class="tot"><i class="fas fa-angle-double-right"></i>
-        Total {{tl}} point.</div>
+        <div class="tot">
+          <i class="fas fa-angle-double-right"></i>
+          Total {{tl}} point.
+        </div>
       </div>
       <!--/col-md-6 total-->
     </div>
@@ -50,8 +53,10 @@
         </div>
       </div>
       <div class="col-xs-6 col-sm-2 col-md-4 col-lg-5 bg">
-        <div class="tot"><i class="fas fa-angle-double-right"></i>
-        Total {{t}} point. </div>
+        <div class="tot">
+          <i class="fas fa-angle-double-right"></i>
+          Total {{t}} point.
+        </div>
       </div>
       <!--/col-md-6 total-->
     </div>
@@ -134,11 +139,10 @@ export default {
   color: #000000;
 }
 .bg {
-  font-size: 3rem;
+  font-size: 4vw;
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 .mg {
   display: flex;
@@ -163,7 +167,7 @@ p {
   margin-top: 20px;
 }
 .tot {
-  background-color: rgba(238,238,238,0.6);
+  background-color: rgba(238, 238, 238, 0.6);
   padding: 20px;
   border-radius: 20px;
 }
